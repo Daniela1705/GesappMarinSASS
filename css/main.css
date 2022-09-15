@@ -1,0 +1,40 @@
+h1 {
+  background-color: rgb(1, 1, 151);
+  color: white;
+}
+
+h2 {
+  background-color: rgb(255, 153, 0);
+  color: white;
+}
+
+h3 {
+  color: rgb(1, 1, 151);
+}
+
+#botonera img {
+  width: 125px;
+}
+
+.bg-fondo {
+  background-color: rgba(255, 115, 0, 0.911);
+}
+
+.gb.boton {
+  background-color: rgb(255, 153, 0);
+  color: white;
+}
+
+.card-image-x {
+  size: 50%;
+}
+
+.link-color {
+  color: rgb(13, 3, 122);
+}
+
+.nav-link-color {
+  color: rgb(13, 3, 122);
+  margin-left: 20px;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */

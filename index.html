@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Emojis Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>GesApp</title>
+    <link rel="shortcut icon" href="img/GES.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="bg-white py-2 text-center">
+        Contacto (+57)321-123-1234
+    </div>
+    <!-- Inicio Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-fondo sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/GESAppNav.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <!--Inicia Botón desplegable-->
+              <li class="nav-item dropdown">
+                <a class="nav-link-color dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  GES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="link-color dropdown-item" href="#">Give (Regala)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="link-color dropdown-item" href="#">Exchange (Intercambia)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="link-color dropdown-item" href="#">Sell (Vende)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-color fw-bold" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-color fw-bold" href="#">Servicios</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark bg-boton fw-bold" type="submit">Ir</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- Termina nav-->
+
+<!--Carta de ofertas-->
+  <div class="card" style="width: 20rem;">
+      <img src="img/oferta.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h4 class="card-title">Ofertas del día, ve a por ellas!</h4>
+      <p class="card-text">En esta sección encontrarás de todo un poco, desde anillos hasta computadores, desde precios bajos hasta productos regalados, que la fuerza te acompañe en tu búsqueda</p>
+      <a href="ofertas.html" class="btn bg-boton">Ir a GesOfertas</a>
+      </div>
+  </div>
+<!--Termina Carta de ofertas-->
+
+<!-- Carrusel de fotos-->
+    <div id="carouselExampleIndicators" class="carousel slide w-25 col-sm-6 col-me-6 col-lg-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/regalo.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/intercambio.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/venta.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev btn-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next btn-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!-- Termina carrusel de fotos-->   
+
+<!--Inicia container-->
+<main class="py-3">
+  <div class="container-fluid">
+      <h2 class="text-center">Recomendaciones</h2>
+      <div class="row">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <img src="img/exclamation-circle.svg" alt="...">Verifica la autenticidad de tu pedido
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Sea o no tu primer compra, es mejor asegurarse, por más experiencia que tengas en el campo de la compra y venta. Siempre hay gente maliciosa tratando de aprovecharse de los otros, por ende, tómate tu tiempo para pensarlo <img src="img/emoji-wink.svg" alt="...">.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <img src="img/cash-coin.svg" alt="...">La transferencia de dinero se hace VIRTUAL
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">No queremos que nuestros clientes puedan encontrarse con siniestros al momento de pagar, así que, es mejor no tener un contacto físico con la persona con quien estés negociando una venta o intercambio. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <img src="img/suit-club.svg" alt="...">¿No tuviste suerte en tu búsqueda?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Tratamos de mejorar cada día, y tu opinión es sumamente importante para nosotros, deja tus comentarios en la sección de Servicios, así nuestro equipo te contactará para cuando el producto se encuentre disponible.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</main>
+<!--Introduzca frase motivacional-->
+<div class="card">
+    <div class="card-header fw-bold">
+      Frase del día
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>La riqueza, como el árbol, nace de una semilla. La primera moneda que ahorres será la semilla que hará crecer el árbol de tu riqueza. Cuanto antes plantes tu semilla, antes crecerá el árbol. Cuánto más fielmente riegues y abones tu árbol, antes tú te refrescarás, satisfecho, bajo su sombra</p>
+        <footer class="blockquote-footer">George Samuel Clason <cite title="Source Title">"El hombre más rico de Babilonia"</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+<!--Termina frase motivacional-->
+  <footer class="py-2 text-center text-black"> GesApp - La app de las ofertas y regalos preferida por la gente</footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
